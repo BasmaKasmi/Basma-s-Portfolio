@@ -19,7 +19,7 @@ const Footer = () => {
                         <a href="#" className="hover:underline">0634267644</a>
                     </li>
                     <li>
-                        <a href="https://www.manypixels.co/gallery" className="hover:underline">kasmi_b@etna-alternance.net</a>
+                        <a href="#" className="hover:underline">kasmi_b@etna-alternance.net</a>
                     </li>
                 </ul>
             </div>
