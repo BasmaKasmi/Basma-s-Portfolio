@@ -15,8 +15,8 @@ const Form = () => {
         <a href="#" className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={pImg} alt=""/>
             <div className="flex flex-col justify-between p-4 leading-normal">
-            <ol className='list-disc'>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">UNIVERSITÉ PARIS-EST-CRÉTEIL VAL-DE-MARNE 2020-2022</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">UNIVERSITÉ PARIS-EST-CRÉTEIL VAL-DE-MARNE 2020-2022</h5>
+            <ol className='list-none'>
                 <li className="mb-2 font-normal text-gray-900 dark:text-gray-400">Licence mention sciences pour l’ingénieur</li>
               </ol>
             </div>
@@ -24,8 +24,8 @@ const Form = () => {
           <a href="#" className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={wImg} alt=""/>
             <div className="flex flex-col justify-between p-4 leading-normal">
-            <ol className='list-disc'>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ETNA, ECOLE DES TECHNOLOGIES NUMÉRIQUES AVANCÉES 2022 à aujourd'hui</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ETNA, ECOLE DES TECHNOLOGIES NUMÉRIQUES AVANCÉES 2022 à aujourd'hui</h5>
+            <ol className='list-none'>
                 <li className="mb-2 font-normal text-gray-900 dark:text-gray-400">Niveau Bac +2, Ingénierie informatique</li>
               </ol>
             </div>
