@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import Projets from './components/Projets';
 import Comp from './components/Comp'
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Comp />
       <Form />
       <Projets />
+      <Contact /> 
       <Footer />
     </>
   );
