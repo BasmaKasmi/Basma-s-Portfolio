@@ -33,7 +33,7 @@ const Navbar = () => {
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8 '}>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="home" smooth={true} duration={500}>Home</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
-          <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Compétences" smooth={true} offset={-50} duration={500}>Compétences</Link></li>
+          <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Comp" smooth={true} offset={-50} duration={500}>Compétences</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Projets" smooth={true} offset={-100} duration={500}>Projets</Link></li>
       </ul>
     </div>
