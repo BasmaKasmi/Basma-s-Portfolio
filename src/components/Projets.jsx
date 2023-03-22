@@ -50,7 +50,7 @@ const Projets = () => {
             <img className="object-cover w-full rounded-t-md h-96 md:h-auto md:w-48 md:rounded-none md:rounded-md" src={em} alt=""/>
             <div className="flex flex-col justify-between p-4 leading-normal">
             <ol className='list-disc'>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Défi ETNA: App mobile en React Native, Expo,
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Défi ETNA code camp: App mobile en React Native, Expo,
                 NodeJs, Typescript</h5>
                 <li className="mb-2 font-normal text-gray-700 dark:text-gray-400">Réalisation d'une application mobile pour rendre le système d'émargement à l'école semi automatique.</li> 
                 <li className="mb-2 font-normal text-gray-700 dark:text-gray-400">Gestion des codes QR présents sur les cartes étudiantes</li>
