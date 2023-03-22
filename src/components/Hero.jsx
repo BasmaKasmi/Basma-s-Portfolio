@@ -5,7 +5,7 @@ import {
 } from '@heroicons/react/solid'
 
 import bgImg from '../assets/hero-image.png'
-import cvV from '../assets/cvv.pdf'
+import CvV from '../assets/CvV.pdf'
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className='text-2xl'>Hey! je suis développeuse fullstack junior.</p>
                 <h1 className='py-3 text-5xl md:text-7xl font-bold'>Basma KASMI</h1>
                 <p className='text-2xl'>This is my portfolio.</p>
-                <a download="" href={cvV} className='btn font-sans inline-block mt-4 py-2 px-8 rounded-[30px] bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 text-white'> Télecharger CV</a>
+                <a download="" href={CvV} className='btn font-sans inline-block mt-4 py-2 px-8 rounded-[30px] bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 text-white'> Télecharger CV</a>
             </div>
             <div>
                 <img className='w-full' src={bgImg} alt="/" />

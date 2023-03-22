@@ -29,7 +29,7 @@ const Projets = () => {
             <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={etnaImg} alt=""/>
             <div className="flex flex-col justify-between p-4 leading-normal">
               <ol className='list-disc'>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pôle Suivi : Effectuer des mêlées de suivi pédagogique avec les étudiants.</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> Pôle Suivi : Effectuer des mêlées de suivi pédagogique avec les étudiants.</h5>
                 <li className="mb-2 font-normal text-gray-700 dark:text-gray-400">Création d'un backend (API) et d'un frontend (web) en utilisant les technologies suivantes:</li>
                 <li className="mb-2 font-normal text-gray-700 dark:text-gray-400">Pour le backend : MySQL, NodeJS, TypeScript et ExpressJS.<br /> Pour le frontend : JavaScript, ReactJs, CSS</li>
 
