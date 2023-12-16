@@ -9,7 +9,7 @@ const Form = () => {
 
       <div className='max-w-[1240px] mx-auto py-2 '>
         <div className='text-center py-4 text-black'>
-          <h2 className='text-3xl uppercase'>FOrmations</h2>
+          <h2 className='text-3xl uppercase'>Formations</h2>
         </div>
         <div className='grid md:grid-cols-2 gap-4'>
         <a href="#" className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">

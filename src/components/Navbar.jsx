@@ -18,10 +18,10 @@ const Navbar = () => {
         </div>
         <div className='pr-10 space-x-4 space-x-reverse flex items-center'>
           <ul className='hidden md:flex p-4'>
-          <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
-          <li><Link to="about" smooth={true} offset={-200} duration={500}>A propos</Link></li>
-          <li><Link to="Comp" smooth={true} offset={-50} duration={500}>Compétences</Link></li>
-          <li><Link to="Projets" smooth={true} offset={-100} duration={500}>Projets</Link></li>
+          <li><Link className="hover:text-purple-500 hover:underline" to="home" smooth={true} duration={500}>Home</Link></li>
+          <li><Link className="hover:text-purple-500 hover:underline" to="about" smooth={true} offset={-200} duration={500}>A propos</Link></li>
+          <li><Link className="hover:text-purple-500 hover:underline" to="Comp" smooth={true} offset={-50} duration={500}>Compétences</Link></li>
+          <li><Link className="hover:text-purple-500 hover:underline" to="Projets" smooth={true} offset={-100} duration={500}>Projets</Link></li>
           </ul>
         </div>
         <div className='md:hidden mr-4' onClick={handleClick}>
