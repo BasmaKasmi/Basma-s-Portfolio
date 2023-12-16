@@ -14,7 +14,7 @@ const About = () => {
                 domaines de l’informatique à fin d’exercer le métier de mon rêve autant qu’une une développeuse web comme il faut. Et effectivement obtenir un diplôme reconnu et en adéquation avec mon projet professionnel.</p>
             </div>
             <div className='mx-8 px-8'>
-                <img className='w-8/12 rounded-lg w-full rounded-2xl md:w-3/5 mr-4 hover:scale-110 duration-300 cursor-pointer"' src={c} alt="/" />
+                <img className='w-8/12 rounded-lg md:w-3/5 mr-4 hover:scale-110 duration-300 cursor-pointer"' src={c} alt="/" />
             </div>
         </div>
 

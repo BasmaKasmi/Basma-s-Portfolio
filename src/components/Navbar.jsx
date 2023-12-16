@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='place-items-stretch w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
       <div className='pr-10 flex justify-between items-center w-full h-full'>
         <div className='ml-4 space-x-4 space-x-reverse flex items-center'>
-        <img alt="logo" src={logo} width="75px" />
+        <img className="logo hover:scale-110 transition-transform duration-150" alt="logo" src={logo} width="75px" />
         </div>
         <div className='pr-10 space-x-4 space-x-reverse flex items-center'>
           <ul className='hidden md:flex p-4'>
