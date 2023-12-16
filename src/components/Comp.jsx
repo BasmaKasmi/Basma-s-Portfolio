@@ -5,6 +5,31 @@ import {DesktopComputerIcon, CogIcon} from '@heroicons/react/solid'
 
 import ImgC from '../assets/Web.png'
 
+const skills = [
+  {
+    category: 'Front-end',
+    skills: ['HTML', 'css/ Tailwind css', 'JavaScript', 'ReactJs', 'TypeScript', 'NextJs'],
+    icon: CodeIcon,
+  },
+  {
+    category: 'Back-end',
+    skills: ['Language C', 'C#', 'MySQL', 'PHP', 'Python', 'ExpressJs', 'NodeJs', 'MongoDB'],
+    icon: CogIcon,
+  },
+  {
+    category: 'Systèmes dexploitation et Logiciels',
+    skills: [
+      'Mac OS, Windows, Linux',
+      'gestion de versions: Git, GitHub / GitLab / Bitbucket',
+      'Outils de développement: Visual Studio Code, IntelliJ IDEA, Jupyter, Spyder',
+      'Outils de déploiement et CI/CD: Docker, Kubernetes, Jenkins',
+      'Outil pour tester des API: Postman'
+    ],
+    icon: DesktopComputerIcon,
+  },
+];
+
+
 const Comp = () => {
   return (
   <div name='Comp' className='w-full mt-24'>
@@ -19,41 +44,19 @@ const Comp = () => {
           </div>
 
           <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
-              <div className='bg-white rounded-xl shadow-xl overflow-hidden hover:scale-110 duration-300 cursor-pointer'>
-                  <div className='p-8'>
-                      <CodeIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6'>Front-end</h3>
-                      <ol className='list-disc'>
-                        <li className='text-black text-xl'>HTML</li>
-                        <li className='text-black text-xl'>css</li>
-                        <li className='text-black text-xl'>TypeScript</li>
-                        <li className='text-black text-xl'> JavaScript</li>
-                        <li className='text-black text-xl'> ReactJs</li>
-                      </ol>
-                  </div>
+          {skills.map((skill, index) => (
+            <div key={index} className='bg-white rounded-xl shadow-xl overflow-hidden hover:scale-110 duration-300 cursor-pointer'>
+              <div className='px-4 py-20'>
+                <skill.icon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+                <h3 className='font-bold text-2xl my-6'>{skill.category}</h3>
+                <ol className='list-disc space-y-2 px-6 text-gray-700'>
+                  {skill.skills.map((skillDetail, index) => (
+                    <li key={index} className='text-xl'>{skillDetail}</li>
+                  ))}
+                </ol>
               </div>
-              <div className='bg-white rounded-xl shadow-xl overflow-hidden hover:scale-110 duration-300 cursor-pointer'>
-                  <div className='p-8'>
-                      <CogIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6'>Back-end</h3>
-                      <ol className='list-disc'>
-                        <li className='text-black text-xl'>Language C</li>
-                        <li className='text-black text-xl'>MySQL</li>
-                        <li className='text-black text-xl'>PHP</li>
-                        <li className='text-black text-xl'> Python</li>
-                      </ol>
-                  </div>
-              </div>
-              <div className='bg-white rounded-xl shadow-xl overflow-hidden hover:scale-110 duration-300 cursor-pointer'>
-                  <div className='p-8'>
-                      <DesktopComputerIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6'>Systèmes d'exploitation et Logiciels</h3>
-                      <ol className='list-disc'>
-                        <li className='text-black text-xl'>Mac OS, Windows</li>
-                        <li className='text-black text-xl'>Git, Visual StudioCode, Word, Excel, et Powerpoint.</li>
-                      </ol>
-                  </div>
-              </div>
+            </div>
+          ))}
           </div>
       </div>
   </div>
