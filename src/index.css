@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 @layer base {
   li {
@@ -8,3 +16,4 @@
   }
 
 }
+
