@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
             <a href="" className="flex items-center">
-                <img src={logo} className="h-9 mr-3" alt="Logo" />
+                <img src={logo} className="h-9 mr-3 hover:scale-110 transition-transform duration-150" alt="Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Basma KASMI</span>
             </a>
         </div>
