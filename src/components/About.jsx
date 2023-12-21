@@ -4,15 +4,15 @@ import c from '../assets/c.png'
 const cardData = [
     {
       title: 'Mon histoire',
-      content: 'Autodidacte depuis mon plus jeune âge, j\'aime apprendre de nouvelles choses pour améliorer mes compétences. De nature très curieuse, j\'adore le monde du web et des nouvelles technologies, j\'aurai le plaisir de me consacrer pleinement au développement de vos idées afin d\'en faire de grands projets.'
+      content: "Autodidacte depuis mon plus jeune âge, j'aime apprendre de nouvelles choses pour améliorer mes compétences. De nature très curieuse, j'adore le monde du web et des nouvelles technologies, j'aurai le plaisir de me consacrer pleinement au développement des idées afin d'en faire de grands projets."
     },
     {
       title: 'Education',
-      content: 'Pour ce qui est de ma formation, j\'ai commencé en dernière année universitaire avec python et j\'ai adoré, la façon de penser, d\'afficher les choses avec des lignes de codes m\'a tout fasciné. J\'ai donc décidé d\'aller à l\'ETNA. Ce qui est bien, c\'est qu\'il y a l\'alternance et l\'autonomie. On apprend en réalisant des projets passionnants qui stimulent notre envie d\'apprendre.'
+      content: "j'ai commencé en dernière année universitaire avec python et j'ai adoré, la façon de penser, d'afficher les choses avec des lignes de codes m'a tout fasciné. Cela m'a motivé à rejoindre l'ETNA, où j'ai pu profiter d'un programme d'alternance et d'une grande autonomie. J'ai consolidé mes compétences en travaillant sur des projets stimulants qui ont renforcé mon désir d'apprendre."
     },
     {
       title: 'Experience',
-      content: 'Mon cursus d’apprentissage à l’ETNA se fait avec la pédagogie par projet. Le développement de compétences essentielles à un architecte en informatique est par ailleurs favorisé par cette pédagogie professionnalisante : rigueur, organisation, communication et management de projet. J’ai donc eu l’occasion de faire plusieurs projets'
+      content: 'Mon cursus d’apprentissage à l’ETNA se fait avec la pédagogie par projet. Le développement de compétences essentielles à une architecte en informatique est par ailleurs favorisé par cette pédagogie professionnalisante : rigueur, organisation, communication et management de projet. J’ai donc eu l’occasion de faire plusieurs projets'
     }
   ];
 
